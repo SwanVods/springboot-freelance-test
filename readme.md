@@ -13,7 +13,7 @@ Contoh request:
 GET /api/v1/prime?n=10
 ```
 
-Contoh responsee :
+Contoh response :
 ```json
 {
     "status": true,
@@ -25,7 +25,7 @@ Contoh responsee :
 Endpoint ini berfungsi untuk mengurutkan kumpulan bilangan bulat yang diberikan dalam request dan mengembalikannya dalam urutan yang diurutkan.
 
 - Metode: `POST`
-- Konten request: JSON array berisi bilangan bulat
+- Request Body: JSON array berisi bilangan bulat
 
 Contoh request:
 
