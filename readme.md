@@ -13,7 +13,7 @@ Contoh request:
 GET /api/v1/prime?n=10
 ```
 
-Contoh response :
+Contoh responsee :
 ```json
 {
     "status": true,
@@ -22,12 +22,12 @@ Contoh response :
 ```
 
 ### Endpoint `/api/v1/sort`
-Endpoint ini berfungsi untuk mengurutkan kumpulan bilangan bulat yang diberikan dalam permintaan dan mengembalikannya dalam urutan yang diurutkan.
+Endpoint ini berfungsi untuk mengurutkan kumpulan bilangan bulat yang diberikan dalam request dan mengembalikannya dalam urutan yang diurutkan.
 
 - Metode: `POST`
-- Konten permintaan: JSON array berisi bilangan bulat
+- Konten request: JSON array berisi bilangan bulat
 
-- Contoh permintaan:
+Contoh request:
 
 ```text
 POST /api/v1/sort
@@ -35,7 +35,7 @@ Content-Type: application/json
 
 [5, 1, 9, 3]
 ```
-Contoh respons:
+Contoh response:
 ```json
 {
     "status": true,
